@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Log In</title>
+  </head>
+  <body>
+    <nav class="login_nav">
+      <ul>
+        <li>
+          <a href="Signin.html" class="btn-signup">Hungry? Sign-up today</a>
+        </li>
+        <li><a href="#login" class="btn-login">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="container-login">
+      <div class="login_btns">
+        <h3>Login With</h3>
+        <a href="" class="fb_btn"
+          ><i class="fab fa-facebook fb_icon"></i>
+          Sign in With Facebook
+        </a>
+        <a href="" class="google_btn"
+          ><i class="google_icon"
+            ><img src="imgs/google.png" width="100%" height="auto" alt=""
+          /></i>
+          Sign in With Google
+        </a>
+      </div>
+      <div class="login_vc"></div>
+      <hr class="hr" />
+      <div class="login_form">
+        <h3>Login With Email...</h3>
+        <form id="form">
+          <label for="user_name">
+            <span>User Name</span>
+          </label>
+          <input
+            type="text"
+            name="user_name"
+            id="#login"
+            class="form_control"
+          />
+          <label for="user_pass">
+            <span>Password</span>
+          </label>
+          <input type="password" name="user_pass" id="" class="form_control" />
+          <a href="" class="forgot_pass">Forgot Password?</a>
+          <div>
+            <a href="Signin.html" class="btn_signup">Creat an account</a>
+            <input type="submit" value="Log In" class="login_btn" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

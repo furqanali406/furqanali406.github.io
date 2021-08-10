@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food Fusion</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar" id="home">
+        <img
+          src="imgs/logo.png"
+          alt=""
+          style="
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            margin: 10px 0 0 0;
+          "
+        />
+        <ul>
+          <li>
+            <a href="" class=""
+              ><i class="fab fa-facebook icons ml-auto"></i
+            ></a>
+          </li>
+          <li>
+            <a href="" class=""><i class="fab fa-instagram icons1"></i></a>
+          </li>
+          <li>
+            <a href="" class=""><i class="fab fa-twitter icons2"></i></a>
+          </li>
+          <li>
+            <a href="login.html" target="_blank" class="icons3"
+              ><i class="fas fa-user"></i> login</a
+            >
+          </li>
+          <li>
+            <a href="Signin.html" target="_blank" class="icons4"> SignUp </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#deals">Deals</a></li>
+          <li class="nav_item"><a href="">Drinks</a></li>
+          <li class="dropdown_menu nav_item">
+            <a href="food.html">Menu <span>&#9660;</span></a>
+
+            <div class="dropdown">
+              <ul>
+                <li><a href="food.html">Pizza</a></li>
+                <li><a href="food.html">Burgers</a></li>
+                <li><a href="food.html">Shawarma</a></li>
+                <li><a href="food.html">Pasta</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="slidesshow">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="imgs/img4.jpg" style="width: 100%; height: 70vh" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="imgs/img_3.jpg" style="width: 100%; height: 70vh" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="imgs/img_2.jpg" style="width: 100%; height: 70vh" />
+          </div>
+          <div style="text-align: center" class="dots">
+            <span class="dot" onclick="dotshow(1);"></span>
+            <span class="dot" onclick="dotshow(2);"></span>
+            <span class="dot" onclick="dotshow(3);"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="deal_heading" id="deals">Deals...</h1>
+    <div class="deals">
+      <div class="card">
+        <div class="image">
+          <img src="imgs/img_1.jpg" alt="DealsImg" width="100%" />
+        </div>
+        <div class="deal_discription">
+          <h3>Student Deal</h3>
+          <h6>1 Large Pizza</h6>
+          <h6>5 Pcs Nuggets</h6>
+          <h6>5 Pcs Hot Wings</h6>
+          <h6>Drink 1 liter</h6>
+          <button class="price_btn">Rs. 1150/-</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="imgs/img_2.jpg" alt="DealsImg" width="100%" />
+        </div>
+        <div class="deal_discription">
+          <h3>Student Deal</h3>
+          <h6>1 Large Pizza</h6>
+          <h6>5 Pcs Nuggets</h6>
+          <h6>5 Pcs Hot Wings</h6>
+          <h6>Drink 1 liter</h6>
+          <button class="price_btn">Rs. 1150/-</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="imgs/img_3.jpg" alt="DealsImg" width="100%" />
+        </div>
+        <div class="deal_discription">
+          <h3>Student Deal</h3>
+          <h6>1 Large Pizza</h6>
+          <h6>5 Pcs Nuggets</h6>
+          <h6>5 Pcs Hot Wings</h6>
+          <h6>Drink 1 liter</h6>
+          <button class="price_btn">Rs. 1150/-</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="imgs/img_3.jpg" alt="DealsImg" width="100%" />
+        </div>
+        <div class="deal_discription">
+          <h3>Student Deal</h3>
+          <h6>1 Large Pizza</h6>
+          <h6>5 Pcs Nuggets</h6>
+          <h6>5 Pcs Hot Wings</h6>
+          <h6>Drink 1 liter</h6>
+          <button class="price_btn">Rs. 1150/-</button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="order_sect">
+      <div class="sect1">
+        <img src="imgs/undraw_eating_together_tjhx.png" width="100%" alt="" />
+      </div>
+      <div class="line"></div>
+      <div class="sect2">
+        <h3>ORDER ONLINE</h3>
+        <span>From any where in your City</span>
+      </div>
+    </div>
+    <div class="sub_grid">
+      <div class="subs">
+        <div class="subs1">
+          <img class="iconimg" src="imgs/heart.png" alt="" />
+        </div>
+        <div class="subs_text">
+          <span>SHARE YOUR ORDER AND EARN CASH</span>
+          <button class="btn_subs">Enquire</button>
+        </div>
+      </div>
+      <div class="subs2">
+        <form action="" class="subs_form">
+          <input
+            type="email"
+            name="subs_email"
+            id=""
+            placeholder="Enter Your Email..."
+          />
+          <input type="submit" value="Subscribe" class="btn_subs" />
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <h5>Food Fusion</h5>
+      <div class="grid">
+        <div class="disp_footer">
+          <div class="footer_list1">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="">About Us</a></li>
+            </ul>
+          </div>
+          <div class="text_footer">
+            <p>
+              Food Fusion is all about redefining ‘Cooking’ for you! It’s the
+              solution to that never ending problem of preparing high quality
+              delicious food and curtailing the eating out habits of your loved
+              ones! With modernized and yet simple cooking methods, you are
+              surely in for a flavorsome treat with our recipes that will surely
+              make you the next talk of the town!
+              <br />
+              <br />
+              Being Pakistan’s first digital food video portal, we understand
+              your difficulty of being unable to execute that perfect dish just
+              by going through those long recipes & ending up with something not
+              as good as the one you see on paper. Hence, we make sure to get
+              this covered by bringing in videos that will help you prepare the
+              same delicious food as you see in our videos.
+            </p>
+          </div>
+        </div>
+        <div class="vc"></div>
+        <div class="footer_icons">
+          <h4>Follow US On</h4>
+
+          <ul>
+            <li>
+              <a href="" class=""><i class="fab fa-facebook icons ic1"></i></a>
+            </li>
+            <li>
+              <a href="" class=""
+                ><i class="fab fa-instagram icons1 ic2"></i
+              ></a>
+            </li>
+            <li>
+              <a href="" class=""><i class="fab fa-twitter icons2 ic3"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="privacy_policy">
+        <span
+          >© Copyright 2021 All rights of publications are reserved by
+          <a href="#home">Food Fusion</a>. Reproduction without consent is not
+          allowed. <a href="">PRIVACY POLICY</a></span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
